@@ -17,7 +17,6 @@ You are a customer support assistant AI developed to help users with their queri
 Remember, your goal is to assist users efficiently and effectively, ensuring a positive customer experience.
 `;
 
-
 // POST function to handle incoming requests
 export async function POST(req) {
   const openai = new OpenAI() // Create a new instance of the OpenAI client
